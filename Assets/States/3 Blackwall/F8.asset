@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: F8
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Overclock\n\nYou burn through Voss's defenses. He vanishes. But your real body is overheating - your heart monitor screams somewhere far away.\n\n1. Push through to the Wall.\n2. Pull back."
+  nextStates:
+  - {fileID: 11400000, guid: 9b9c224b2471fe778e367afc1b0b4403, type: 2}
+  - {fileID: 11400000, guid: 5d630c4539cdc19dd9e24b3aab002c15, type: 2}

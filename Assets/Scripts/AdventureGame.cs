@@ -26,17 +26,14 @@ public class AdventureGame : MonoBehaviour
     {
         var nextStates = state.GetNextStates();
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        // Keys 1..9 pick nextStates[0..8]; keys beyond the room's choice count are ignored.
+        for (int i = 0; i < nextStates.Length && i < 9; i++)
         {
-            state = nextStates[0];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            state = nextStates[1];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            state = nextStates[2];
+            if (Input.GetKeyDown(KeyCode.Alpha1 + i))
+            {
+                state = nextStates[i];
+                break;
+            }
         }
 
         textComponent.text = state.GetStateStory();

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: R11
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "AV Pad\n\nYou hotwire an Arasaka AV and lift off into the rain. Two security AVs follow.\n\nMirage: \"I can mask us for a few minutes. Pick a direction.\"\n\n1. Fly to the Badlands.\n2. Fly to Pacifica.\n3. Fly straight over Arasaka airspace downtown."
+  nextStates:
+  - {fileID: 11400000, guid: 6e798e6e932eb026e1b6bd773da30d72, type: 2}
+  - {fileID: 11400000, guid: 3bc2348ebc959b0dda13b3e807be6d1c, type: 2}
+  - {fileID: 11400000, guid: 3d342d74b6f1f36d5acbbc68c51405b6, type: 2}

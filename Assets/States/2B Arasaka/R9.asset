@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: R9
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Aiko's Route\n\nAiko leads you through service tunnels. \"Arasaka's research servers here connect close to the Blackwall. If she wants to go home, this is a door.\"\n\n\"Or I can get you to the roof, and you disappear.\"\n\n1. Jack in from the Arasaka servers.\n2. Just get out. Go to the roof."
+  nextStates:
+  - {fileID: 11400000, guid: b54feb0749b1070708d624a184d8478f, type: 2}
+  - {fileID: 11400000, guid: 5f3b3ce407c553c97109b9153186047d, type: 2}

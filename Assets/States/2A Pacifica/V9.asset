@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: V9
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Mirage's Fear\n\nMirage, quietly: \"They don't want to send me home. They want to use me as a key. Once the gate is open, they won't need me anymore.\"\n\n1. Trust the Voodoo Boys anyway.\n2. Tell Celestine what Mirage said.\n3. Sneak out of the church."
+  nextStates:
+  - {fileID: 11400000, guid: b54feb0749b1070708d624a184d8478f, type: 2}
+  - {fileID: 11400000, guid: f7acfcb01a69e3027cb085a1f75ae0ac, type: 2}
+  - {fileID: 11400000, guid: 6013178201b703bdf656349f46089000, type: 2}

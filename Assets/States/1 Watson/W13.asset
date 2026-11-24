@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: W13
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "The Crate\n\nYou slip in, grab the crate, slip out. A Maelstrom turret swivels - then turns on its own gang. Mirage giggles.\n\nBack at the clinic, Doc Mori installs the ICE. The trace dies at 81%. \"Now,\" she says, \"you need to decide who to trust.\"\n\n1. Think about it."
+  nextStates:
+  - {fileID: 11400000, guid: 0144d3ae8bdc363a287d793ad7ec123d, type: 2}

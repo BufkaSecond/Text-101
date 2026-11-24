@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: F6
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Duel\n\nVoss hits you with code that feels like fire. Mirage shields you. \"Use me,\" she says. \"Use all of me.\"\n\n1. Use Mirage's full power.\n2. Pull back."
+  nextStates:
+  - {fileID: 11400000, guid: 1ed85b9263b16a74e3fdd949c789e1c5, type: 2}
+  - {fileID: 11400000, guid: 5d630c4539cdc19dd9e24b3aab002c15, type: 2}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: F14
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Holding the Line\n\nYou throw everything you have at the crack. NetWatch ICE floods in from behind. Your mind is screaming.\n\n1. Hold it.\n2. Let go and run."
+  nextStates:
+  - {fileID: 11400000, guid: 25f9da3abc4e59531f53cf930afad2d7, type: 2}
+  - {fileID: 11400000, guid: 4b7a643a4f10dad605f8ec8f4af3d287, type: 2}

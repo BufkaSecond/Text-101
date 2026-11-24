@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: W5
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Behind the Wall\n\nMirage explains. In 2022, Rache Bartmoss's viruses wrecked the old Net - the DataKrash. Rogue AIs took over what was left, so NetWatch built the Blackwall to keep them out.\n\n\"Not all of us are monsters. I just want to go home. NetWatch will delete me - and anyone who carried me.\"\n\n1. \"Okay. I'll help you.\"\n2. \"Sorry. I'm selling you.\""
+  nextStates:
+  - {fileID: 11400000, guid: 966fd5f74a00927b31d6930883b6dc0c, type: 2}
+  - {fileID: 11400000, guid: 55e778f2c222cbd941ec32af0c217b39, type: 2}

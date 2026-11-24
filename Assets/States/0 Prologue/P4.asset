@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: P4
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "The Fixer\n\n\"Kaz Okoro. Small-time fixer, big-time heart.\" His optics click as they scan you. \"Simple gig. Courier a package to Pacifica tonight. 1,000 eb on delivery.\"\n\n\"My usual runner, Nix, is late. You'll do.\"\n\n1. \"I'm in.\"\n2. \"What's in the package?\"\n3. \"Not interested.\""
+  nextStates:
+  - {fileID: 11400000, guid: f2b9ab146b88314b4b1e261fc16d7225, type: 2}
+  - {fileID: 11400000, guid: 4c9fbddb8b30575ee80cd634a2b2bfdf, type: 2}
+  - {fileID: 11400000, guid: 32a4de8369b5c63c9a9ff12ef91645e6, type: 2}

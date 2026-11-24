@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: W16
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Three Doors\n\nYou stop somewhere dark to think. Three paths:\n\nThe Voodoo Boys in Pacifica - netrunners who want to reach beyond the Blackwall. Arasaka - rich, powerful, very interested. The Aldecaldos nomads in the Badlands - who don't care about corps at all.\n\n1. Pacifica - the Voodoo Boys.\n2. Arasaka.\n3. The Badlands - the Aldecaldos."
+  nextStates:
+  - {fileID: 11400000, guid: 3bc2348ebc959b0dda13b3e807be6d1c, type: 2}
+  - {fileID: 11400000, guid: 490585e3e2d22d49afd6b9b0e0df7713, type: 2}
+  - {fileID: 11400000, guid: 6e798e6e932eb026e1b6bd773da30d72, type: 2}

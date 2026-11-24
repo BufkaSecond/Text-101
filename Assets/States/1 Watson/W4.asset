@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: W4
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Holocall: Kaz\n\nKaz's face flickers up. \"You got Nix's shard? Gonk! Every corp in this city wants it. Arasaka's offering 50,000 eb. Come to my garage. We'll make this right.\"\n\nHe sounds a little too happy.\n\n1. Go to Kaz's garage.\n2. \"Forget it, I'm out.\" Hang up."
+  nextStates:
+  - {fileID: 11400000, guid: 61f795f9c13fd1dacd30d76c0ecf1b69, type: 2}
+  - {fileID: 11400000, guid: c67b168498e22d32204f8d14d6a29556, type: 2}

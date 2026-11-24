@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: P1
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Just Another Night\n\nYou are in a bar in Kabuki, Watson. Nothing special, just a popular place on the streets of Night City, 2077. Neon buzzes, a jukebox plays samurai-era rock, two guys argue about a braindance.\n\nYou feel bored. Do you want to buy a drink?\n\nYou have 20 eb.\n\n1. Buy a drink (-5 eb)\n2. Nah"
+  nextStates:
+  - {fileID: 11400000, guid: 724ac745290817e342af80cbdffdb078, type: 2}
+  - {fileID: 11400000, guid: 796ba8bd4cc57a2678a5983df6c133a7, type: 2}

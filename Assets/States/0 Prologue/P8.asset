@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: P8
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Waiting for Nix\n\nKaz shakes your hand. \"Nix was supposed to bring the package an hour ago. She's never late.\" He checks his holo. Frowns.\n\nOutside, gunshots. Close.\n\n1. Look toward the door."
+  nextStates:
+  - {fileID: 11400000, guid: 32a4de8369b5c63c9a9ff12ef91645e6, type: 2}

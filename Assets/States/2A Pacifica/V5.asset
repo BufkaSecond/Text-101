@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: V5
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "The Test\n\n\"A fixer?\" Baptiste spits. \"We don't trust fixers. Want to talk to us? Prove it. The Animals in the next block stole our access codes. Get them back.\"\n\n1. \"Deal.\"\n2. \"Forget it.\""
+  nextStates:
+  - {fileID: 11400000, guid: 6c1ccb6a84cef985b9cfe27c8e31863d, type: 2}
+  - {fileID: 11400000, guid: 3bc2348ebc959b0dda13b3e807be6d1c, type: 2}

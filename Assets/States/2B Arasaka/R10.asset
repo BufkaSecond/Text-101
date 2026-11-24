@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: R10
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Loyalty\n\nIshida listens, nods, and two guards take Aiko away. She doesn't look at you.\n\n\"Arasaka values loyalty,\" Ishida says. \"Welcome to the company.\"\n\n1. Shake his hand."
+  nextStates:
+  - {fileID: 11400000, guid: b8293fe630f4ae1f433359a394bfbdf3, type: 2}

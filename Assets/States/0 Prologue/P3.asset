@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: P3
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Nah\n\nYou keep your 20 eb and watch the room. Two Tyger Claws by the door, katanas on their backs. A man with glowing Kiroshi optics alone in the back booth, scanning faces.\n\nRain hammers the window. Nobody looks happy to be here.\n\n1. Walk over to the back booth.\n2. Leave the bar.\n3. Keep sitting."
+  nextStates:
+  - {fileID: 11400000, guid: b7d230df26bf13cf2b053605c9351aa1, type: 2}
+  - {fileID: 11400000, guid: affb0b5d988a7cd1901be9573a769f09, type: 2}
+  - {fileID: 11400000, guid: 32a4de8369b5c63c9a9ff12ef91645e6, type: 2}

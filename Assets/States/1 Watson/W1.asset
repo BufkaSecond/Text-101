@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: W1
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Back Alley\n\nRain, trash, a flickering Kang Tao ad. The shard is still warm in your hand, and your personal link pings: UNKNOWN DATA - SLOT? Y/N.\n\nSomewhere behind you, boots.\n\n1. Slot the shard.\n2. Call Kaz the fixer.\n3. Run for the NCART station."
+  nextStates:
+  - {fileID: 11400000, guid: c338b172a30959520c4ca57e869e887a, type: 2}
+  - {fileID: 11400000, guid: 55e778f2c222cbd941ec32af0c217b39, type: 2}
+  - {fileID: 11400000, guid: c67b168498e22d32204f8d14d6a29556, type: 2}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: N10
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Ines Remembers\n\n\"I was a kid when Bartmoss's viruses ate the Net,\" Ines says. \"After that, the Net was a graveyard. NetWatch built the Wall, and told us everything behind it was a monster.\"\n\n\"Some things are. Not all.\"\n\n1. Go to the uplink."
+  nextStates:
+  - {fileID: 11400000, guid: 489b5fb6c957cc6558260703cfb717b1, type: 2}

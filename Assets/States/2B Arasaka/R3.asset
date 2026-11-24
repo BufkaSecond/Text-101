@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: R3
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Negotiation\n\n\"100,000,\" you say. Ishida smiles thinly. \"You are on Arasaka property. Here, you negotiate with your life.\" Then: \"60,000. And a corporate ID.\"\n\n1. \"Deal.\"\n2. Keep pushing."
+  nextStates:
+  - {fileID: 11400000, guid: 9b164874e02e7bb0a958141a9e40e02e, type: 2}
+  - {fileID: 11400000, guid: 3d342d74b6f1f36d5acbbc68c51405b6, type: 2}

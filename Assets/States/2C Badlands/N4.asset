@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: N4
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Wraiths\n\nMotorbikes roar out of the canyon. Wraiths - raiders in scrap armor, painted skulls on their masks. They surround you.\n\n1. Fight.\n2. Offer them everything you have.\n3. \"Mirage - their bikes!\""
+  nextStates:
+  - {fileID: 11400000, guid: 7660ebc9248c99761c55edf2d77fef96, type: 2}
+  - {fileID: 11400000, guid: 268e3e029009a88b547c5959dbe9f611, type: 2}
+  - {fileID: 11400000, guid: 0e9e7ab3166f85ce8ed2c4c338fe0012, type: 2}

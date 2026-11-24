@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: P10
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "No Coverage\n\nYou ping Trauma Team. A cheerful voice: \"No active subscription detected for the patient. Have a safe night!\" Click.\n\nNCPD sirens wail somewhere far away. The Tyger Claws are walking toward you.\n\n1. Run with the shard.\n2. Stay and wait for NCPD."
+  nextStates:
+  - {fileID: 11400000, guid: 89967b054cb7a441b939317918c2d8ae, type: 2}
+  - {fileID: 11400000, guid: 60ef0112a2d76356067f50e8fa5a0e4f, type: 2}

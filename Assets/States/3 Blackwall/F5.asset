@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
+  m_Name: F5
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "Agent Voss\n\nA figure in a grey coat blocks the path: Agent Voss, NetWatch. \"Hand her over. The Wall must hold. What's behind it would kill millions.\"\n\n1. Fight Voss.\n2. Talk to him.\n3. Give Mirage up."
+  nextStates:
+  - {fileID: 11400000, guid: 0e1bb885efdd696e72ade4f641548e6d, type: 2}
+  - {fileID: 11400000, guid: 160b1ad75f5df929fb58306537abb397, type: 2}
+  - {fileID: 11400000, guid: afce024085abc420ce57c03292229c62, type: 2}
