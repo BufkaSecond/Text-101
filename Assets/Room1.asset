@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
   m_Name: Room1
   m_EditorClassIdentifier: Assembly-CSharp::State
-  storyText: 
+  storyText: Room1 test text
   nextStates: []

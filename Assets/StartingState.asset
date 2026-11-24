@@ -23,3 +23,6 @@ MonoBehaviour:
     a drink (-5 Ebs)
 
     2. Nah'
+  nextStates:
+  - {fileID: 11400000, guid: 74e65edc462f2544384db1d65e56d79e, type: 2}
+  - {fileID: 11400000, guid: 61edfe068286fa74293ad1ea1c429f9d, type: 2}
