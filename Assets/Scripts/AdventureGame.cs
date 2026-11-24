@@ -33,9 +33,22 @@ public class AdventureGame : MonoBehaviour
             {
                 state = nextStates[i];
                 break;
+            } 
+            else if (Input.GetKeyDown(KeyCode.Q))
+            {
+                QuitGame();
             }
         }
 
         textComponent.text = state.GetStateStory();
+    }
+
+    private void QuitGame()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+                Application.Quit();
+        #endif
     }
 }
