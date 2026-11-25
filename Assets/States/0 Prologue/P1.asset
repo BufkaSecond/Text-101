@@ -12,7 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d942913cfea0194881cc2c7f239e0ff, type: 3}
   m_Name: P1
   m_EditorClassIdentifier: Assembly-CSharp::State
-  storyText: "Just Another Night\n\nYou are in a bar in Kabuki, Watson. Nothing special, just a popular place on the streets of Night City, 2077. Neon buzzes, a jukebox plays samurai-era rock, two guys argue about a braindance.\n\nYou feel bored. Do you want to buy a drink?\n\nYou have 20 eb.\n\n1. Buy a drink (-5 eb)\n2. Nah"
+  storyText: 'Just Another Night
+
+
+    (Game controls - numbers to choose the answer,
+    Q to exit!)
+
+
+    You are in a bar in Kabuki, Watson. Nothing special, just a
+    popular place on the streets of Night City, 2077. Neon buzzes, a jukebox plays
+    samurai-era rock, two guys argue about a braindance.
+
+
+    You feel bored. Do
+    you want to buy a drink?
+
+
+    You have 20 eb.
+
+
+    1. Buy a drink (-5 eb)
+
+    2.
+    Nah'
   nextStates:
   - {fileID: 11400000, guid: 724ac745290817e342af80cbdffdb078, type: 2}
   - {fileID: 11400000, guid: 796ba8bd4cc57a2678a5983df6c133a7, type: 2}
